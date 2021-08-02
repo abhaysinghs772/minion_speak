@@ -1,5 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav section */
+nav {
+  background-color: #f2c94c;
+  text-align: center;
+}
+
+nav div {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* main section */
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+}
+
+button {
+  background-color: #f2c94c;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
+}
+
 .output {
-  border: 1px solid black;
-  height: 10vh;
-  width: 60%;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid #333333;
+}
+
+/* footer section */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f2c94c;
+  text-align: center;
+}
+
+footer div {
+  font-size: x-large;
+}
+
+footer p{
+  max-width: 600px;
+  margin: auto;
 }
